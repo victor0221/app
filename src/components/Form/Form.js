@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import "../Styles/StyleForm.css"
 
 function Form() {
@@ -9,7 +9,6 @@ password: '',
 });
 
 const [submittedData, setSubmittedData] = useState([]);
-
 const handleUpdateFormData = (event) => {
 const { name, value } = event.target;
 setFormData((prevData) => ({
@@ -36,7 +35,6 @@ password: '',
 
 return (
 <div className="form-wrapper">
-<h2 className="form-title">Contact Us</h2>
 <form onSubmit={handleFormDataSubmit}>
 <div className="form-container">
 <div className="form-row">
