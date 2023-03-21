@@ -16,6 +16,9 @@ export default function Nav(){
                 <LinkItem to="app/VersionLog">
                     Version Log
                 </LinkItem>
+                <LinkItem to="app/Form">
+                    Form
+                </LinkItem>
             </ul>
         </nav>
     );

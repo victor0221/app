@@ -1,8 +1,9 @@
 import Nav from "./components/Nav";
-import AboutMe from "./components/AboutMe/AboutMePage"
-import Experience from "./components/Experience/ExperiencePage"
-import Projects from "./components/Projects/ProjectsPage"
-import VersionLog from "./components/VersionLog/VersionLogPage"
+import AboutMePage from "./components/AboutMe/AboutMePage"
+import ExperiencePage from "./components/Experience/ExperiencePage"
+import ProjectsPage from "./components/Projects/ProjectsPage"
+import VersionLogPage from "./components/VersionLog/VersionLogPage"
+import FormPage from "./components/Form/FormPage"
 import {Route, Routes} from "react-router-dom"
 function App() {
   
@@ -11,12 +12,13 @@ function App() {
       <Nav/>
       <div>
         <Routes>
-          <Route path="/" element={<AboutMe />} />
-          <Route path="/app" element={<AboutMe />} />
-          <Route path="app/AboutMe" element={<AboutMe />} />
-          <Route path="app/Experience" element={<Experience />} />
-          <Route path="app/Projects" element={<Projects />} />
-          <Route path="app/VersionLog" element={<VersionLog />} />
+          <Route path="/" element={<AboutMePage />} />
+          <Route path="/app" element={<AboutMePage />} />
+          <Route path="app/AboutMe" element={<AboutMePage />} />
+          <Route path="app/Experience" element={<ExperiencePage />} />
+          <Route path="app/Projects" element={<ProjectsPage />} />
+          <Route path="app/VersionLog" element={<VersionLogPage />} />
+          <Route path="app/Form" element={<FormPage />} />
         </Routes>
       </div>
     </>
