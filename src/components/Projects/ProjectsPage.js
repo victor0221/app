@@ -7,6 +7,7 @@ export default function ProjectPage(){
 
     return(
     <>
+        <p>HELLOW WORLD THIS IS A TEST</p>
        <DataBox version="Dupe Music Deleter" I1={<img width="350px" alt="d" src={DUPE}/>} />
        <DataBox version="Weight Loss Calculator" I1={<img width="350px" alt="d" src={WLC}/>} />
        <DataBox version="Blender Model" I1={<img width="350px" alt="d" src={BLD} />} />
