@@ -13,10 +13,10 @@ function App() {
         <Routes>
           <Route path="/" element={<AboutMe />} />
           <Route path="/app" element={<AboutMe />} />
-          <Route path="/AboutMe" element={<AboutMe />} />
-          <Route path="/Experience" element={<Experience />} />
-          <Route path="/Projects" element={<Projects />} />
-          <Route path="/VersionLog" element={<VersionLog />} />
+          <Route path="app/AboutMe" element={<AboutMe />} />
+          <Route path="app/Experience" element={<Experience />} />
+          <Route path="app/Projects" element={<Projects />} />
+          <Route path="app/VersionLog" element={<VersionLog />} />
         </Routes>
       </div>
     </>

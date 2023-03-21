@@ -4,16 +4,16 @@ export default function Nav(){
     return(
         <nav>
             <ul>
-                <LinkItem to="/AboutMe">
+                <LinkItem to="app/AboutMe">
                     About Me
                 </LinkItem>
-                <LinkItem to="/Experience">
+                <LinkItem to="app/Experience">
                     Experience
                 </LinkItem>
-                <LinkItem to="/Projects">
+                <LinkItem to="app/Projects">
                     Projects
                 </LinkItem>
-                <LinkItem to="/VersionLog">
+                <LinkItem to="app/VersionLog">
                     Version Log
                 </LinkItem>
             </ul>
