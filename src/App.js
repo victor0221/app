@@ -4,7 +4,9 @@ import ExperiencePage from "./components/Experience/ExperiencePage"
 import ProjectsPage from "./components/Projects/ProjectsPage"
 import VersionLogPage from "./components/VersionLog/VersionLogPage"
 import FormPage from "./components/Form/FormPage"
+import NotesPage from "./components/Notes/NotesPage"
 import {Route, Routes} from "react-router-dom"
+import ToDoPage from "./components/ToDo/ToDoPage";
 function App() {
   
   return (
@@ -19,6 +21,9 @@ function App() {
           <Route path="app/Projects" element={<ProjectsPage />} />
           <Route path="app/VersionLog" element={<VersionLogPage />} />
           <Route path="app/Form" element={<FormPage />} />
+          <Route path="app/Notes" element={<NotesPage />} />
+          <Route path="app/ToDo" element={<ToDoPage />} />
+          
         </Routes>
       </div>
     </>

@@ -1,8 +1,8 @@
 import {useState} from "react"
 import DataBox from "../DataBox";
-import WLC from "../images/WL_Cal.png"
-import DUPE from "../images/dupeMusic.png"
-import BLD from "../images/B_DO.png"
+import WLC from "../Images/WL_Cal.png"
+import DUPE from "../Images/dupeMusic.png"
+import BLD from "../Images/B_DO.png"
 import Notify from "../Notify";
 
 export default function ProjectPage(){

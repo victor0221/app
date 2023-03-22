@@ -19,6 +19,12 @@ export default function Nav(){
                 <LinkItem to="app/Form">
                     Form
                 </LinkItem>
+                <LinkItem to="app/Notes">
+                    Notes
+                </LinkItem>
+                <LinkItem to="app/ToDo">
+                    To Do
+                </LinkItem>
             </ul>
         </nav>
     );

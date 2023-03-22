@@ -13,7 +13,7 @@ const Notify = (p) => {
         case "--":
           containerStyle = { backgroundColor: "#383838" };
           contentStyle = { color: "white" };
-          icon="ℹ️"
+          icon="(ℹ️)"
           break;
         case "error":
           containerStyle = { backgroundColor: "#8a2d1a" };
@@ -37,7 +37,7 @@ const Notify = (p) => {
     useEffect(() => {
       const timer = setTimeout(() => {
         setVisible(false);
-      }, 3000); //
+      }, 3000); //ms
       return () => clearTimeout(timer);
     }, []);
   

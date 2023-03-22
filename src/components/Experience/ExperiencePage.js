@@ -1,14 +1,14 @@
 import DataBox from "../DataBox";
-import RALogo from "../images/RA.png";
-import CSSLogo from "../images/CSS.png";
-import HTMLLogo from "../images/HTML.png";
-import JSLogo from "../images/JS.png";
-import SQLLogo from "../images/SQL.png";
-import PythonLogo from "../images/Python.png";
-import ReactLogo from "../images/React.png";
-import SQLSERVERLogo from "../images/SQL_Server.png";
-import BRLogo from "../images/BR.png";
-import AccessLogo from "../images/MS_Access.png";
+import RALogo from "../Images/RA.png";
+import CSSLogo from "../Images/CSS.png";
+import HTMLLogo from "../Images/HTML.png";
+import JSLogo from "../Images/JS.png";
+import SQLLogo from "../Images/SQL.png";
+import PythonLogo from "../Images/Python.png";
+import ReactLogo from "../Images/React.png";
+import SQLSERVERLogo from "../Images/SQL_Server.png";
+import BRLogo from "../Images/BR.png";
+import AccessLogo from "../Images/MS_Access.png";
 
 
 

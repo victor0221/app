@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import "../Styles/StyleForm.css"
+import Notify from "../Notify"
 
 function Form() {
 const [formData, setFormData] = useState({
@@ -7,6 +8,15 @@ name: '',
 email: '',
 password: '',
 });
+
+const [showNotify, setShowNotify] = useState(false);
+
+const handleClick = () => {
+    setShowNotify(true);
+    setTimeout(() => {
+      setShowNotify(false);
+    }, 3000);
+  };
 
 const [submittedData, setSubmittedData] = useState([]);
 const handleUpdateFormData = (event) => {
@@ -33,9 +43,14 @@ password: '',
 });
 };
 
+function eventHandler(event){
+    handleFormDataSubmit(event)
+    handleClick()
+}
+
 return (
 <div className="form-wrapper">
-<form onSubmit={handleFormDataSubmit}>
+<form onSubmit={eventHandler}>
 <div className="form-container">
 <div className="form-row">
 <label htmlFor="name">Name</label>
@@ -73,10 +88,11 @@ return (
 <button type="submit">Submit</button>
 </div>
 </form>
+{showNotify && (<Notify message="Form Submitted" type="--"/>)}
 {submittedData.map((data) => (
 <div key={data.id} className="submitted-data">
 <h3>API Call {data.id}:</h3>
-<p>{data.name} {data.email} {data.password}</p>
+<p>{data.name}---{data.email}---{data.password}</p>
 </div>
 ))}
 </div>
