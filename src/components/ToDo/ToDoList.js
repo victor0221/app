@@ -5,7 +5,7 @@ function ToDoList(p) {
   return (
     <>
       <div className="todoWrapper">
-        <ul className="List">
+        <ul className="ListToDO">
           {p.todo.map((todo) => (
             <ToDo
               todo={p.todo}
