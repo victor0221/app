@@ -1,0 +1,5 @@
+.BorderSearchBar{
+    border: solid 3px black;
+    margin-top: 10px;
+    width: 300px;
+}

@@ -7,6 +7,9 @@ import FormPage from "./components/Form/FormPage"
 import NotesPage from "./components/Notes/NotesPage"
 import {Route, Routes} from "react-router-dom"
 import ToDoPage from "./components/ToDo/ToDoPage";
+import SearchBarPage from "./components/SearchBar/SearchBarPage";
+import EcomPage from "./components/Ecom/EcomPage";
+import AddBasketPage from "./components/AddBasket/AddBasketPage";
 function App() {
   
   return (
@@ -23,6 +26,9 @@ function App() {
           <Route path="app/Form" element={<FormPage />} />
           <Route path="app/Notes" element={<NotesPage />} />
           <Route path="app/ToDo" element={<ToDoPage />} />
+          <Route path="app/Search" element={<SearchBarPage />} />
+          <Route path="app/Prod" element={<EcomPage />} />
+          <Route path="app/Basket" element={<AddBasketPage />} />
           
         </Routes>
       </div>

@@ -1,0 +1,17 @@
+.ListItemE {
+    width: 100px;
+    background-color: #be6565;
+    border: solid 2px #e4e4e4 ;
+  }
+
+.BorderThing{
+  border: solid 2px #000000 ;
+  width: 300px;
+}
+
+.GridViewEcom{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 10px;
+}
+

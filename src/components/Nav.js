@@ -25,6 +25,15 @@ export default function Nav(){
                 <LinkItem to="app/ToDo">
                     To Do
                 </LinkItem>
+                <LinkItem to="app/Search">
+                    Search Bar 
+                </LinkItem>
+                <LinkItem to="app/Prod">
+                    Prod Example 
+                </LinkItem>
+                <LinkItem to="app/Basket">
+                    Basket 
+                </LinkItem>
             </ul>
         </nav>
     );
