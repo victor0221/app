@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/app/static/css/main.d55c4d8b.css",
-    "main.js": "/app/static/js/main.da46017d.js",
+    "main.css": "/app/static/css/main.af3ebbd2.css",
+    "main.js": "/app/static/js/main.7e635649.js",
     "static/media/JS.png": "/app/static/media/JS.c3522eac269cf76c186c.png",
     "static/media/B_DO.png": "/app/static/media/B_DO.9b89f93fd5a4213394a0.png",
     "static/media/React.png": "/app/static/media/React.283f9f863581bb226e65.png",
@@ -11,11 +11,11 @@
     "static/media/SQL_Server.png": "/app/static/media/SQL_Server.5aae029f5a9ae6f69da5.png",
     "static/media/MS_Access.png": "/app/static/media/MS_Access.67f5843316e9c6428c81.png",
     "index.html": "/app/index.html",
-    "main.d55c4d8b.css.map": "/app/static/css/main.d55c4d8b.css.map",
-    "main.da46017d.js.map": "/app/static/js/main.da46017d.js.map"
+    "main.af3ebbd2.css.map": "/app/static/css/main.af3ebbd2.css.map",
+    "main.7e635649.js.map": "/app/static/js/main.7e635649.js.map"
   },
   "entrypoints": [
-    "static/css/main.d55c4d8b.css",
-    "static/js/main.da46017d.js"
+    "static/css/main.af3ebbd2.css",
+    "static/js/main.7e635649.js"
   ]
 }
